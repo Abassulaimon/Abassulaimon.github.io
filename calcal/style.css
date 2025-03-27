@@ -1,0 +1,152 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* .container{
+    background-color: pink;
+    justify-content: center;
+    padding: 20px; */
+/* } */
+.calendar{
+    display: grid;
+    background-color: rgb(249, 203, 211);
+    justify-content: center;
+    align-content: center;
+    padding: 30px 0px;
+    /* height: 70vh; */
+    /* grid-template-columns: 100px 50px 50px;
+    grid-template-rows: 50px 50px 50px; */
+    grid-template-columns: repeat(7, 50px);
+    /* grid-template-rows: 10px; */
+}
+.card{
+    padding: 10px;
+    /* border: 1px solid blue; */
+    background-color: white;
+}
+.calculator{
+    justify-content: center;
+    padding: 30px 0px;
+    text-align: center;
+    font-size: 20px;
+    display: grid;
+    grid-template: 
+    "zero zero zero zero" 60px
+    "plus mini time divi" 50px   
+    "sev  eig  nin  equ"  50px
+    "for  fiv  six  equ"  50px
+    "one  two  thr  equ"  50px
+    "zee  dot  ac   equ"  50px
+    /60px 60px 60px 60px;
+    background-color: rgb(135, 195, 241);
+}
+.zero{
+    background-color: rgb(0, 0, 0);
+    grid-area: zero;
+    color: white;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    text-align: end;
+    font-size: 25px;
+    align-content: center;
+}
+.plus{
+    background-color: rgb(235, 232, 232);
+    grid-area: plus;
+    align-content: center;
+}
+.mini{
+    background-color: rgb(235, 232, 232);
+    grid-area: mini;
+    align-content: center;
+}
+.time{
+    background-color: rgb(235, 232, 232);
+    grid-area: time;
+    align-content: center;
+}
+.divi{
+    background-color: rgb(235, 232, 232);
+    grid-area: divi;
+    align-content: center;
+}
+.sev{
+    background-color: white;
+    grid-area: sev;
+    border: 1px solid grey;
+    align-content: center;
+}
+.eig{
+    background-color: white;
+    grid-area: eig;
+    border: 1px solid grey;
+    align-content: center;
+}
+.nin{
+    background-color: white;
+    grid-area: nin;
+    border: 1px solid grey;
+    align-content: center;
+}
+.for{
+    background-color: white;
+    align-content: center;
+    grid-area: for;
+    border: 1px solid grey;
+}
+.fiv{
+    background-color: white;
+    grid-area: fiv;
+    border: 1px solid grey;
+    align-content: center;
+}
+.six{
+    background-color: white;
+    align-content: center;
+    grid-area: six;
+    border: 1px solid grey;
+}
+.one{
+    background-color: white;
+    grid-area: one;
+    border: 1px solid grey;
+    align-content: center;
+}
+.two{
+    background-color: white;
+    grid-area: two;
+    align-content: center;
+    border: 1px solid grey;
+}
+.thr{
+    background-color: white;
+    grid-area: thr;
+    align-content: center;
+    border: 1px solid grey;
+}
+.zee{
+    background-color: white;
+    grid-area: zee;
+    align-content: center;
+    border: 1px solid grey;
+    border-bottom-left-radius: 5px;
+}
+.dot{
+    align-content: center;
+    background-color: white;
+    grid-area: dot;
+    border: 1px solid grey;
+}
+.ac{
+    background-color: white;
+    grid-area: ac;
+    border: 1px solid grey;
+    align-content: center;
+}
+.equ{
+    background-color: orange;
+    grid-area: equ;
+    border-bottom-right-radius: 5px;
+    align-content: center;
+}
